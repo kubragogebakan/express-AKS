@@ -56,7 +56,7 @@ stages:
     displayName: Deploy job
     pool:
       vmImage: $(vmImageName)
-    environment: 'kubernetes-clusterSP-20191129154037.default'
+    environment: 'kubernetes-cluster.default'
     strategy:
       runOnce:
         deploy:
